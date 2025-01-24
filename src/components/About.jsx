@@ -1,5 +1,5 @@
 import React from "react";
-import AboutImage from "../assets/aboutme-image.png";
+import AboutImage from "../assets/arav.jpg";
 
 const About = () => {
   return (
@@ -33,7 +33,7 @@ const About = () => {
               </div>
               <div className="flex items-center">
                 <label htmlFor="htmlandcss" className="w-2/12">
-                  React JS
+                  Python & Java
                 </label>
                 <div className="grow bg-gray-800 rounded-full h-2.5">
                   <div
@@ -44,7 +44,7 @@ const About = () => {
               </div>
               <div className="flex items-center">
                 <label htmlFor="htmlandcss" className="w-2/12">
-                  Node JS
+                  Tailwind
                 </label>
                 <div className="grow bg-gray-800 rounded-full h-2.5">
                   <div
@@ -58,23 +58,22 @@ const About = () => {
                 <div>
                     <h3 className="text-2xl font-bold text-transparent bg-clip-text 
                 bg-gradient-to-r from-green-400 to-blue-500">
-                        3+
+                    
                     </h3>
-                    <p>Years Experience</p>
+                    <p></p>
                 </div>
                 <div>
                     <h3 className="text-2xl font-bold text-transparent bg-clip-text 
                 bg-gradient-to-r from-green-400 to-blue-500">
-                        50+
+                        
                     </h3>
-                    <p>Projects Completed</p>
+                    <p></p>
                 </div>
                 <div>
                     <h3 className="text-2xl font-bold text-transparent bg-clip-text 
                 bg-gradient-to-r from-green-400 to-blue-500">
-                        10+
                     </h3>
-                    <p>Happy Clients</p>
+                    <p></p>
                 </div>
             </div>
           </div>
