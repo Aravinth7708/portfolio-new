@@ -1,27 +1,27 @@
 import React from "react";
-import employeeMSImage from "../assets/employee-ms.png";
-import bookMSImage from "../assets/admin-dashboard.png";
+import webpage from "../assets/pro1.png";
+import converter from "../assets/pro2.png";
 
 const projects = [
   {
     id: 1,
-    name: "Employee MS",
+    name: "Landing Page",
     technologies: "MERN Stack",
-    image: employeeMSImage,
-    github: "https://github.com/YouafKhan1",
+    image: webpage,
+    github: "https://codsoft-kappa-ten.vercel.app/",
   },
   {
     id: 2,
-    name: "Blog App",
+    name: "Currency Converter",
     technologies: "MERN Stack",
-    image: bookMSImage,
-    github: "https://github.com/YouafKhan1",
+    image: converter,
+    github: "https://currency-converter-ochre-chi.vercel.app/",
   },
   {
     id: 3,
     name: "Book MS",
     technologies: "MERN Stack",
-    image: employeeMSImage,
+    image: webpage,
     github: "https://github.com/YouafKhan1",
   },
 ];
@@ -41,7 +41,7 @@ const Projects = () => {
               <p className="text-gray-400 mb-4">{project.technologies}</p>
               <a href={project.github} className="inline-block bg-gradient-to-r 
               from-green-400 to-blue-500 text-white px-4 py-2 rounded-full" target="_blank" 
-              rel="noopener noreferrer">GitHub</a>
+              rel="noopener noreferrer">Click here for demo</a>
             </div>
           ))}
         </div>
