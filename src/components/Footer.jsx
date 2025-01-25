@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -40,16 +40,13 @@ const Footer = () => {
             &copy; {new Date().getFullYear()} Powered by Aravinth. All rights reserved.
           </p>
           <div className="flex space-x-4 my-4 md:my-0">
-            <a href="#" className="text-gray-400 hover:text-white">
-              <FaFacebook />
+            <a href="https://www.instagram.com/arav_.390._/" className="text-gray-400 hover:text-white">
+              <FaInstagram />
             </a>
-            <a href="#" className="text-gray-400 hover:text-white">
-              <FaTwitter />
-            </a>
-            <a href="#" className="text-gray-400 hover:text-white">
+            <a href="https://www.linkedin.com/in/aravinthrajan-k-819664290/" className="text-gray-400 hover:text-white">
               <FaLinkedin />
             </a>
-            <a href="#" className="text-gray-400 hover:text-white">
+            <a href="https://github.com/Aravinth7708" className="text-gray-400 hover:text-white">
               <FaGithub />
             </a>
           </div>
