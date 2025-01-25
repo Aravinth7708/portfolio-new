@@ -1,6 +1,7 @@
 import React from "react";
 import webpage from "../assets/pro1.png";
 import converter from "../assets/pro2.png";
+import qrscans from "../assets/qr.png";
 
 const projects = [
   {
@@ -19,10 +20,10 @@ const projects = [
   },
   {
     id: 3,
-    name: "Book MS",
+    name: "QR Code Generator",
     technologies: "MERN Stack",
-    image: webpage,
-    github: "https://github.com/YouafKhan1",
+    image: qrscans,
+    github: "https://qr-code-generator-flame-six.vercel.app/",
   },
 ];
 
